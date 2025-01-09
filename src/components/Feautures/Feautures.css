@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Madurai';
+    src: url(../../fonts/HindMadurai-Regular.ttf);
+}
+
+.feautures{
+    padding: 100px 0;
+}
+.feautures__wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.feautures__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    padding: 35px 26px 28px 26px; 
+    text-align: center;
+    border: 1px solid #00000008;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+
+}
+.feautures__item:hover{
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+.feautures__icon{
+    margin-bottom: 24px;
+}
+.feautures__title{
+    font-family: Madurai;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.6px;
+}
+.feautures__text{
+    font-family: Madurai;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.32px;
+    opacity: 60%;
+}

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: 'Madurai';
+  src: url('./fonts/HindMadurai-Regular.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1157px;
+  margin: 0 auto;
+  padding: 16px;
+}
