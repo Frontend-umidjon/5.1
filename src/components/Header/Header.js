@@ -11,11 +11,11 @@ const Header = () => {
             <img src={logo} alt="" />
           </a>
           <ul className="navbar__list">
-            <li className="navbar__item">Home</li>
-            <li className="navbar__item">Product</li>
-            <li className="navbar__item">Pricing</li>
-            <li className="navbar__item">Testimonials</li>
-            <li className="navbar__item">Contact Us</li>
+            <li className="navbar__item" style={{animationDelay: '0.2s'}}>Home</li>
+            <li className="navbar__item" style={{animationDelay: '0.4s'}}>Product</li>
+            <li className="navbar__item"  style={{animationDelay: '0.6s'}}>Pricing</li>
+            <li className="navbar__item" style={{animationDelay: '0.8s'}}>Testimonials</li>
+            <li className="navbar__item" style={{animationDelay: '1s'}}>Contact Us</li>
           </ul>
           <button className="navbar__btn">Buy Now</button>
         </nav>
